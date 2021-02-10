@@ -19,6 +19,10 @@ body {
     text-decoration: none;
 }
 
+.menu li :hover{
+    color: oldlace;
+}
+
 .container{
     display: flex;
     flex-flow: row;
