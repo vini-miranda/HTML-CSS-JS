@@ -4,44 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>Contato[Generation]</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
-        <li> 
-            <a href="index.html"> Home </a>
-        </li>
-        <li> 
-            <a href="contato.html"> Contato </a> 
-        </li>
-    </ul>
+    <div style="padding-bottom: 15px;">
+        <ul class="menu">
+            <li> 
+                <a href="index.html"> Home </a>
+            </li>
+            <li> 
+                <a href="contato.html"> Contato </a> 
+            </li>
+        </ul>
+    </div>
 
-    <h1>Entre em contato comigo:</h1>
-    <h2>Linkedin:</h2>
-    <a href="https://www.linkedin.com/in/vini-miranda/" target="_blank"><img align="center" 
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNxDKqkL7mgxr2ZeW-e2KKdcwTGtVEJKlfhA&usqp=CAU" 
-    alt="ViniciusMiranda" height="50" width="50" /></a>
+    <h1 style="text-align: center;">Entre em contato comigo:</h1>
     
-    <form>
-        <br>
-        <label for="nome">Nome:</label> <br>
-        <input type="text" id="nome"> 
-        <br>
-        <label for="email">Email:</label> <br>
-        <input type="email" id="email">
-        <br>
-        <label for="assunto">Assunto:</label> <br>
-        <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
-    </form>
+    <div class="container">
+        <div>
+            <form>
+                <br>
+                <label for="nome">Nome:</label> <br>
+                <input type="text" id="nome"> 
+                <br>
+                <label for="email">Email:</label> <br>
+                <input type="email" id="email">
+                <br>
+                <label for="assunto">Assunto:</label> <br>
+                <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
+            </form>
+    
+            <button>Enviar</button>
 
-    <button>Enviar</button>
+        </div>
+        
+        <div class="pd-50">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14629.061696113016!2d-46.6589587!3d-23.5589089!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x34166339e4cc57c6!2sUAM%20Campus%20Paulista%201!5e0!3m2!1spt-BR!2sbr!4v1612898496252!5m2!1spt-BR!2sbr" 
+            width="400" height="350" frameborder="0" style="border:0;" allowfullscreen="" 
+            aria-hidden="false" tabindex="0"></iframe>
+        </div>
 
-    <h2>Endereço</h2>
-    <p>Avenida Paulista, 2000</p>
-    <p>São Paulo - SP</p>
+        
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14629.061696113016!2d-46.6589587!3d-23.5589089!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x34166339e4cc57c6!2sUAM%20Campus%20Paulista%201!5e0!3m2!1spt-BR!2sbr!4v1612898496252!5m2!1spt-BR!2sbr" 
-    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" 
-    aria-hidden="false" tabindex="0"></iframe>
+    </div>
+
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="tm" src="assets/img/instagram.png" alt="instagram">
+            </a>
+            
+            <a href="https://www.facebook.com/" target="_blank">
+                <img class="tm" src="assets/img/facebook.png" alt="facebook">
+            </a>
+            
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img class="tm" src="assets/img/linkedin.png" alt="linkedin">
+            </a>
+            
+
+        </div>
+
+        <p style="text-align: center;">
+            Todos os direitos reservados: Vinicis Miranda &copy;
+        </p>
+    </footer>
 </body>
 </html>
