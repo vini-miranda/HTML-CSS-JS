@@ -1,25 +1,36 @@
 /*estilização index*/
+*{
+    margin: 0px;
+}
+
 body {
-    background-color: #9db4ab; 
+    background-color: #d3d0cb; 
   }
 
 .menu li {
-    padding: 15pt;
-    padding-bottom: 50px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #9db4ab;
-    background-color:#b9c6ae;
+    padding: 0pt 15pt;
     display: inline;
 }
 
-.menu li a{
-    color: #000000;
-    margin-top: 50px;
+.menu ul li a{
     text-decoration: none;
+    font-size: 26px;
+    font-family: 'Poiret One', cursive;
+    color: #d3d0cb;
 }
 
-.menu li :hover{
+.menu{
+    background-color: #23597a;
+    height: 80px;
+    width: auto;
+}
+
+.menu ul {
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.menu ul li a:hover{
     color: oldlace;
 }
 
@@ -28,13 +39,19 @@ body {
     flex-flow: row;
     justify-content: center;
     align-items: center;
-    padding: 0px 15px 0px 15px;
+    padding: 10px;
     
 }
+
 .foto-redonda{
     border-radius: 50%;
     height: 300px;
     width: 300px;
+    padding-right: 10px;
+}
+
+.foto-redonda:hover{
+    opacity: .7;
 }
 
 .videos{
@@ -49,6 +66,7 @@ body {
 .form{
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 25px;
 }
 
 .tm{
@@ -63,6 +81,37 @@ hr{
 
 #center{
     text-align: center;
+}
+
+footer{
+    background-color:#0c3249;
+}
+
+h1{
+    padding-top: 20px;
+    font-family: 'Poiret One', cursive;
+}
+
+h2{
+    font-family: 'Poiret One', cursive;
+    font-size: 28px;
+}
+
+.inde{
+    text-indent: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.videos p{
+    text-align: start;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 5px;
+}
+
+footer p{
+    text-align: center;
+    color: #d3d0cb;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*estilização contato*/
