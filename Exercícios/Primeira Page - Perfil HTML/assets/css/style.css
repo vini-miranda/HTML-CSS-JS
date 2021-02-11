@@ -6,7 +6,7 @@
 body {
     /*background-color: #d3d0cb;*/
     background-color: #cccccc;
-    background-image: linear-gradient(#fdfdfd,#b8b5b1); 
+    background-image: linear-gradient(#fdfdfd,#8d8c8c); 
   }
 
 .menu li {
@@ -72,7 +72,7 @@ body {
 
 .form{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 25px;
 }
 
@@ -119,6 +119,10 @@ footer p{
     text-align: center;
     color: #d3d0cb;
     font-family: 'Roboto', sans-serif;
+}
+
+.opac :hover{
+    opacity: .7;
 }
 
 .fm{

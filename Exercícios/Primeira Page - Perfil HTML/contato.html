@@ -23,7 +23,7 @@
             </li>
 
             <li id="gt" >
-                <a href="https://github.com/vini-miranda" target="_blank">
+                <a class="opac" href="https://github.com/vini-miranda" target="_blank">
                     <img src="assets/img/github-sign.png" alt="github" 
                     height="40px" width="40px">
                 </a>
@@ -40,16 +40,19 @@
             <form>
                 <br>
                 <label for="nome" class="fm">Nome:</label> <br>
-                <input type="text" id="nome" > 
+                <input type="text" id="nome" onkeyup='validarNome()'> 
+                <div id="txtNome"></div>
                 <br>
                 <label for="email" class="fm">Email:</label> <br>
-                <input type="email" id="email">
+                <input type="email" id="email" onkeyup="validarEmail()">
+                <div id="txtEmail"></div>
                 <br>
                 <label for="assunto" class="fm">Assunto:</label> <br>
-                <textarea name="assunto" id="assunto" cols="30" rows="5"></textarea>
+                <textarea name="assunto" id="assunto" cols="30" rows="5" onkeyup="validarAssunto()"></textarea>
+                <div id="txtAssunto"></div>
             </form>
     
-            <button>Enviar</button>
+            <button onclick="enviar()">Enviar</button>
 
         </div>
         
@@ -65,7 +68,7 @@
 
     <hr>
     <footer>
-        <div class="container">
+        <div class="container opac">
             <a href="https://www.instagram.com/" target="_blank">
                 <img class="tm" src="assets/img/instagram.png" alt="instagram">
             </a>
@@ -85,5 +88,7 @@
             Todos os direitos reservados: Vinicius Miranda &copy;
         </p>
     </footer>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
