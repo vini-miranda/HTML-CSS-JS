@@ -303,3 +303,13 @@ input[type=email] {
     font-size: 16px;
     font-family: 'Bebas Neue', cursive; 
   }
+
+  .redes{
+      height: 100px;
+      background-color: white;
+  }
+
+  .icon{
+      height: 50px;
+      margin: 5px;
+  }
