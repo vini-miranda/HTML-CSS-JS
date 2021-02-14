@@ -4,7 +4,8 @@ body{
 
 .back{
     background-color: white;
-    padding-top: 30px;
+    margin-top: 10px;
+    padding-top: 20px;
 }
 
 .tm-img{
@@ -69,9 +70,9 @@ body{
 }
 
 h1{
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     padding-left: 36px;
     font-family: 'Bebas Neue', cursive;
 }
@@ -306,6 +307,5 @@ input[type=email] {
 
   .icon{
       height: 50px;
-      margin: 0px;
-      padding: 0px;
+      margin: 20px;
   }
