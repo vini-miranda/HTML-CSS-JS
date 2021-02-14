@@ -255,30 +255,25 @@ p{
 }
 
 footer{
-    height: 300px;
+    height: 400px;
     background-color: black;
 }
 
 .fm{
     font-family: 'Bebas Neue', cursive; 
     font-size: 30px;
-    padding: 25px;
 }
 
 input[type=text] {
-    width: 100%;
     padding: 1px 20px;
-    margin: 8px 0;
+    margin: 2px 0;
     border-radius: 5px;
     box-sizing: border-box;
     background-color: rgb(202, 202, 202);
-    ;
 }
 
 input[type=email] {
-    width: 100%;
     padding: 1px 20px;
-    margin: 8px 0;
     border-radius: 5px;
     box-sizing: border-box;
     background-color: rgb(202, 202, 202);
@@ -286,7 +281,6 @@ input[type=email] {
 
   textarea{
     width: 100%;
-    padding: 10px 20px;
     margin: 8px 0;
     border-radius: 5px;
     box-sizing: border-box;
@@ -302,9 +296,9 @@ input[type=email] {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-    font-family: 'Bebas Neue', cursive; 
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 210px; 
   }
-
   .redes{
       height: 100px;
       background-color: white;
@@ -312,5 +306,6 @@ input[type=email] {
 
   .icon{
       height: 50px;
-      margin: 5px;
+      margin: 0px;
+      padding: 0px;
   }

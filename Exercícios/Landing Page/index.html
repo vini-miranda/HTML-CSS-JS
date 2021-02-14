@@ -491,31 +491,38 @@
     </div>
 
     <footer class="d-flex justify-content-around align-items-center">
-
-        <iframe style="padding-left: 30px;" width="450" height="300" src="https://www.youtube.com/embed/_ABk7TmjnVk"
+        <div>
+            <iframe style="padding-left: 30px;" width="400" height="200" src="https://www.youtube.com/embed/_ABk7TmjnVk"
             frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
         </iframe>
 
-        <form class="d-flex justify-content-around align-items-center">
-            <div style="margin: 20px;">
-                <label for="nome" class="fm">Nome:</label> <br>
-                <label for="email" class="fm">Email:</label> <br>
-                <label for="assunto" class="fm">Assunto:</label> <br>
-            </div>
-
-            <div class="d-flex flex-column bd-highlight mb-3">
-                <input type="text" id="nome">
-                <input type="email" id="email">
-                <textarea name="assunto" id="assunto" cols="30" rows="3" onkeyup="validarAssunto()"></textarea>
-
-                <button>Enviar</button>
-            </div>
-        </form>
-
-        <a href="#p0">
-            <img style="height: 50px;" src="assets/img/up-arrow.png" alt="">
-        </a>  
+        </div>
+        <div>
+            <form style="display: block;">
+                <div style="margin: 10px;">
+                    <label for="nome" class="fm">Nome:</label> <br>
+                    <input type="text" id="nome">
+                </div>
+    
+                <div style="margin: 10px;">
+                    <label for="email" class="fm">Email:</label> <br>
+                    <input type="email" id="email">
+                </div>
+                
+                <div style="margin: 10px;">
+                    <label for="assunto" class="fm">Assunto:</label> <br>
+                    <textarea name="assunto" id="assunto" cols="30" rows="3" onkeyup="validarAssunto()"></textarea>
+                    <button>Enviar</button>
+                </div>
+            </form>
+        </div>
+        <div>
+            <a href="#p0">
+                <img style="height: 50px;" src="assets/img/up-arrow.png" alt="">
+            </a> 
+        </div>
+     
     </footer>
 
     <script>
